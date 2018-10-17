@@ -1,0 +1,10 @@
+name: clap_bug
+version: "1.0"
+author: Daniel Mason <daniel@danielmason.com>
+about: Test if "env" works with is_present
+args:
+- test:
+    long: test
+    env: TEST
+    takes_value: false
+    required: false
